@@ -1,7 +1,6 @@
 public class Decrypter
 {
-
-    public static String decrypt(String num)
+    public String decrypt(String num)
     {
         int realnum = Integer.parseInt(num);
         int num1 = (realnum/1000)%10;

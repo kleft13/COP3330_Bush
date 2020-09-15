@@ -1,6 +1,6 @@
 public class Encrypter
 {
-    public static String encrypt(String num)
+    public String encrypt(String num)
     {
         int realnum = Integer.parseInt(num);
         int num1 = ((realnum/1000)+7)%10;
